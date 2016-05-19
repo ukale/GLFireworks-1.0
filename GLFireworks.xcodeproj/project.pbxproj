@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84D74D431CEE35610024DCE0 /* MatrixF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84D74D371CEE35610024DCE0 /* MatrixF.cpp */; };
+		84D74D441CEE35610024DCE0 /* ParticleEffectsController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84D74D391CEE35610024DCE0 /* ParticleEffectsController.cpp */; };
+		84D74D451CEE35610024DCE0 /* ParticleEmitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84D74D3B1CEE35610024DCE0 /* ParticleEmitter.cpp */; };
+		84D74D461CEE35610024DCE0 /* ParticleShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84D74D3D1CEE35610024DCE0 /* ParticleShader.cpp */; };
+		84D74D471CEE35610024DCE0 /* ParticleShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 84D74D3E1CEE35610024DCE0 /* ParticleShader.fsh */; };
+		84D74D481CEE35610024DCE0 /* ParticleShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 84D74D401CEE35610024DCE0 /* ParticleShader.vsh */; };
+		84D74D491CEE35610024DCE0 /* Vector2f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84D74D411CEE35610024DCE0 /* Vector2f.cpp */; };
+		84D74D4C1CEE358A0024DCE0 /* particles.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D74D4A1CEE358A0024DCE0 /* particles.png */; };
+		84D74D4D1CEE358A0024DCE0 /* swirl14.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D74D4B1CEE358A0024DCE0 /* swirl14.png */; };
+		84D74D531CEE35D80024DCE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D74D4F1CEE35D80024DCE0 /* AppDelegate.m */; };
+		84D74D541CEE35D80024DCE0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D74D501CEE35D80024DCE0 /* MainStoryboard.storyboard */; };
+		84D74D551CEE35D80024DCE0 /* MainViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84D74D521CEE35D80024DCE0 /* MainViewController.mm */; };
+		84D74D5C1CEE36140024DCE0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D74D561CEE36140024DCE0 /* Default-568h@2x.png */; };
+		84D74D5D1CEE36140024DCE0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D74D571CEE36140024DCE0 /* Default.png */; };
+		84D74D5E1CEE36140024DCE0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D74D581CEE36140024DCE0 /* Default@2x.png */; };
+		84D74D601CEE36140024DCE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D74D5B1CEE36140024DCE0 /* main.m */; };
+		AE0AB6BF17259B14009F3DE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE0AB6BE17259B14009F3DE6 /* UIKit.framework */; };
+		AE0AB6C117259B14009F3DE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE0AB6C017259B14009F3DE6 /* Foundation.framework */; };
+		AE0AB6C317259B14009F3DE6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE0AB6C217259B14009F3DE6 /* CoreGraphics.framework */; };
+		AE0AB6DC17259B5B009F3DE6 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE0AB6DB17259B5B009F3DE6 /* OpenGLES.framework */; };
+		AE0AB6DE17259B60009F3DE6 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE0AB6DD17259B60009F3DE6 /* GLKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84D74D371CEE35610024DCE0 /* MatrixF.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MatrixF.cpp; path = GLFireworks/MatrixF.cpp; sourceTree = SOURCE_ROOT; };
+		84D74D381CEE35610024DCE0 /* MatrixF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MatrixF.h; path = GLFireworks/MatrixF.h; sourceTree = SOURCE_ROOT; };
+		84D74D391CEE35610024DCE0 /* ParticleEffectsController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ParticleEffectsController.cpp; path = GLFireworks/ParticleEffectsController.cpp; sourceTree = SOURCE_ROOT; };
+		84D74D3A1CEE35610024DCE0 /* ParticleEffectsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParticleEffectsController.h; path = GLFireworks/ParticleEffectsController.h; sourceTree = SOURCE_ROOT; };
+		84D74D3B1CEE35610024DCE0 /* ParticleEmitter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ParticleEmitter.cpp; path = GLFireworks/ParticleEmitter.cpp; sourceTree = SOURCE_ROOT; };
+		84D74D3C1CEE35610024DCE0 /* ParticleEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParticleEmitter.h; path = GLFireworks/ParticleEmitter.h; sourceTree = SOURCE_ROOT; };
+		84D74D3D1CEE35610024DCE0 /* ParticleShader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ParticleShader.cpp; path = GLFireworks/ParticleShader.cpp; sourceTree = SOURCE_ROOT; };
+		84D74D3E1CEE35610024DCE0 /* ParticleShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = ParticleShader.fsh; path = GLFireworks/ParticleShader.fsh; sourceTree = SOURCE_ROOT; };
+		84D74D3F1CEE35610024DCE0 /* ParticleShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParticleShader.h; path = GLFireworks/ParticleShader.h; sourceTree = SOURCE_ROOT; };
+		84D74D401CEE35610024DCE0 /* ParticleShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = ParticleShader.vsh; path = GLFireworks/ParticleShader.vsh; sourceTree = SOURCE_ROOT; };
+		84D74D411CEE35610024DCE0 /* Vector2f.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vector2f.cpp; path = GLFireworks/Vector2f.cpp; sourceTree = SOURCE_ROOT; };
+		84D74D421CEE35610024DCE0 /* Vector2f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vector2f.h; path = GLFireworks/Vector2f.h; sourceTree = SOURCE_ROOT; };
+		84D74D4A1CEE358A0024DCE0 /* particles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = particles.png; path = GLFireworks/Resources/particles.png; sourceTree = SOURCE_ROOT; };
+		84D74D4B1CEE358A0024DCE0 /* swirl14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swirl14.png; path = GLFireworks/Resources/swirl14.png; sourceTree = SOURCE_ROOT; };
+		84D74D4E1CEE35D70024DCE0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = GLFireworks/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		84D74D4F1CEE35D80024DCE0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = GLFireworks/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		84D74D501CEE35D80024DCE0 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = GLFireworks/MainStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
+		84D74D511CEE35D80024DCE0 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = GLFireworks/MainViewController.h; sourceTree = SOURCE_ROOT; };
+		84D74D521CEE35D80024DCE0 /* MainViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MainViewController.mm; path = GLFireworks/MainViewController.mm; sourceTree = SOURCE_ROOT; };
+		84D74D561CEE36140024DCE0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "GLFireworks/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		84D74D571CEE36140024DCE0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = GLFireworks/Default.png; sourceTree = SOURCE_ROOT; };
+		84D74D581CEE36140024DCE0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "GLFireworks/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		84D74D591CEE36140024DCE0 /* GLFireworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GLFireworks-Info.plist"; path = "GLFireworks/GLFireworks-Info.plist"; sourceTree = SOURCE_ROOT; };
+		84D74D5A1CEE36140024DCE0 /* GLFireworks-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GLFireworks-Prefix.pch"; path = "GLFireworks/GLFireworks-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		84D74D5B1CEE36140024DCE0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = GLFireworks/main.m; sourceTree = SOURCE_ROOT; };
+		AE0AB6BB17259B14009F3DE6 /* GLFireworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLFireworks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE0AB6BE17259B14009F3DE6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AE0AB6C017259B14009F3DE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AE0AB6C217259B14009F3DE6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AE0AB6DB17259B5B009F3DE6 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		AE0AB6DD17259B60009F3DE6 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE0AB6B817259B14009F3DE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0AB6BF17259B14009F3DE6 /* UIKit.framework in Frameworks */,
+				AE0AB6C117259B14009F3DE6 /* Foundation.framework in Frameworks */,
+				AE0AB6C317259B14009F3DE6 /* CoreGraphics.framework in Frameworks */,
+				AE0AB6DE17259B60009F3DE6 /* GLKit.framework in Frameworks */,
+				AE0AB6DC17259B5B009F3DE6 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84E644461A7FD110007A759E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84D74D4A1CEE358A0024DCE0 /* particles.png */,
+				84D74D4B1CEE358A0024DCE0 /* swirl14.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AE0AB6B217259B14009F3DE6 = {
+			isa = PBXGroup;
+			children = (
+				AE0AB6C417259B14009F3DE6 /* GLFireworks */,
+				AE0AB6BD17259B14009F3DE6 /* Frameworks */,
+				AE0AB6BC17259B14009F3DE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE0AB6BC17259B14009F3DE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE0AB6BB17259B14009F3DE6 /* GLFireworks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE0AB6BD17259B14009F3DE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE0AB6DD17259B60009F3DE6 /* GLKit.framework */,
+				AE0AB6DB17259B5B009F3DE6 /* OpenGLES.framework */,
+				AE0AB6BE17259B14009F3DE6 /* UIKit.framework */,
+				AE0AB6C017259B14009F3DE6 /* Foundation.framework */,
+				AE0AB6C217259B14009F3DE6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE0AB6C417259B14009F3DE6 /* GLFireworks */ = {
+			isa = PBXGroup;
+			children = (
+				84D74D371CEE35610024DCE0 /* MatrixF.cpp */,
+				84D74D381CEE35610024DCE0 /* MatrixF.h */,
+				84D74D391CEE35610024DCE0 /* ParticleEffectsController.cpp */,
+				84D74D3A1CEE35610024DCE0 /* ParticleEffectsController.h */,
+				84D74D3B1CEE35610024DCE0 /* ParticleEmitter.cpp */,
+				84D74D3C1CEE35610024DCE0 /* ParticleEmitter.h */,
+				84D74D3D1CEE35610024DCE0 /* ParticleShader.cpp */,
+				84D74D3E1CEE35610024DCE0 /* ParticleShader.fsh */,
+				84D74D3F1CEE35610024DCE0 /* ParticleShader.h */,
+				84D74D401CEE35610024DCE0 /* ParticleShader.vsh */,
+				84D74D411CEE35610024DCE0 /* Vector2f.cpp */,
+				84D74D421CEE35610024DCE0 /* Vector2f.h */,
+				84E644461A7FD110007A759E /* Resources */,
+				84D74D4E1CEE35D70024DCE0 /* AppDelegate.h */,
+				84D74D4F1CEE35D80024DCE0 /* AppDelegate.m */,
+				84D74D501CEE35D80024DCE0 /* MainStoryboard.storyboard */,
+				84D74D511CEE35D80024DCE0 /* MainViewController.h */,
+				84D74D521CEE35D80024DCE0 /* MainViewController.mm */,
+				AE0AB6C517259B14009F3DE6 /* Supporting Files */,
+			);
+			path = GLFireworks;
+			sourceTree = "<group>";
+		};
+		AE0AB6C517259B14009F3DE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84D74D561CEE36140024DCE0 /* Default-568h@2x.png */,
+				84D74D571CEE36140024DCE0 /* Default.png */,
+				84D74D581CEE36140024DCE0 /* Default@2x.png */,
+				84D74D591CEE36140024DCE0 /* GLFireworks-Info.plist */,
+				84D74D5A1CEE36140024DCE0 /* GLFireworks-Prefix.pch */,
+				84D74D5B1CEE36140024DCE0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE0AB6BA17259B14009F3DE6 /* GLFireworks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE0AB6D817259B14009F3DE6 /* Build configuration list for PBXNativeTarget "GLFireworks" */;
+			buildPhases = (
+				AE0AB6B717259B14009F3DE6 /* Sources */,
+				AE0AB6B817259B14009F3DE6 /* Frameworks */,
+				AE0AB6B917259B14009F3DE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLFireworks;
+			productName = GLFireworks;
+			productReference = AE0AB6BB17259B14009F3DE6 /* GLFireworks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE0AB6B317259B14009F3DE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ricardo Rendon Cepeda";
+				TargetAttributes = {
+					AE0AB6BA17259B14009F3DE6 = {
+						DevelopmentTeam = 2GBEZ3S548;
+					};
+				};
+			};
+			buildConfigurationList = AE0AB6B617259B14009F3DE6 /* Build configuration list for PBXProject "GLFireworks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AE0AB6B217259B14009F3DE6;
+			productRefGroup = AE0AB6BC17259B14009F3DE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE0AB6BA17259B14009F3DE6 /* GLFireworks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE0AB6B917259B14009F3DE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D74D5E1CEE36140024DCE0 /* Default@2x.png in Resources */,
+				84D74D4D1CEE358A0024DCE0 /* swirl14.png in Resources */,
+				84D74D5C1CEE36140024DCE0 /* Default-568h@2x.png in Resources */,
+				84D74D471CEE35610024DCE0 /* ParticleShader.fsh in Resources */,
+				84D74D541CEE35D80024DCE0 /* MainStoryboard.storyboard in Resources */,
+				84D74D481CEE35610024DCE0 /* ParticleShader.vsh in Resources */,
+				84D74D4C1CEE358A0024DCE0 /* particles.png in Resources */,
+				84D74D5D1CEE36140024DCE0 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE0AB6B717259B14009F3DE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D74D441CEE35610024DCE0 /* ParticleEffectsController.cpp in Sources */,
+				84D74D531CEE35D80024DCE0 /* AppDelegate.m in Sources */,
+				84D74D451CEE35610024DCE0 /* ParticleEmitter.cpp in Sources */,
+				84D74D491CEE35610024DCE0 /* Vector2f.cpp in Sources */,
+				84D74D551CEE35D80024DCE0 /* MainViewController.mm in Sources */,
+				84D74D431CEE35610024DCE0 /* MatrixF.cpp in Sources */,
+				84D74D601CEE36140024DCE0 /* main.m in Sources */,
+				84D74D461CEE35610024DCE0 /* ParticleShader.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AE0AB6D617259B14009F3DE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Udayan KALE (FJP6WE759L)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Udayan KALE (FJP6WE759L)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE0AB6D717259B14009F3DE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Udayan KALE (FJP6WE759L)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Udayan KALE (FJP6WE759L)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE0AB6D917259B14009F3DE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GLFireworks/GLFireworks-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/GLFireworks/GLFireworks-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kineticbytes.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = GLFireworks;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AE0AB6DA17259B14009F3DE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GLFireworks/GLFireworks-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/GLFireworks/GLFireworks-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kineticbytes.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = GLFireworks;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE0AB6B617259B14009F3DE6 /* Build configuration list for PBXProject "GLFireworks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0AB6D617259B14009F3DE6 /* Debug */,
+				AE0AB6D717259B14009F3DE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE0AB6D817259B14009F3DE6 /* Build configuration list for PBXNativeTarget "GLFireworks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0AB6D917259B14009F3DE6 /* Debug */,
+				AE0AB6DA17259B14009F3DE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE0AB6B317259B14009F3DE6 /* Project object */;
+}
